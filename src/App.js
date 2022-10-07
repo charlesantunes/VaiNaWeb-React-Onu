@@ -1,9 +1,13 @@
 import React from "react";
 
+import Routas from './Services/routes'
+import {GlobalStyled} from './Components/Global/style'
+
 export default function App() {
   return(
     <>
-      <h1>Eu sou o App</h1>
+      <GlobalStyled />
+      <Routas />
     </>
   )
   
