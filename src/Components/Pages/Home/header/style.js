@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
+border: solid;
     position: relative;
     top: 0;
     width: 100%;

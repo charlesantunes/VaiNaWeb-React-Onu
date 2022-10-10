@@ -27,20 +27,21 @@ export const Box = styled.article`
 `
 export const BoxFig = styled.div`
     border: solid green;
-    max-width: 90%;
-    height: 200vh;
+    max-width: 80%;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+   justify-content: space-around;
+   // justify-content: center;
+    flex-flow: wrap;
+    gap:1rem
     
     `
 export const CardButton = styled.button`
     border: solid red;
     border-radius: 8px;
-    position: relative;
+   // position: relative;
     width: 150px;
     height: 155px;
-    margin: 10px;
     cursor: pointer;
 
     &:hover{
